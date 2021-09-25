@@ -1,9 +1,20 @@
 function Mouse(name){
 	this->name = name;
-	this.dead = false ;
+	this.isDead = false ;
 }
-Mouse.prototype.die = function(){
-	this.dead = true ;
+Mouse.prototype.dype = function() {
+	this.isDead = true;
+};
+module.exports = Mouse ;
+
+function Eat(){
+	console.log("toi muon an cua hoang de ");
+	console.log("quynh ve muoi con vat sau ba tieng trong ");
+<<<<<<< HEAD
 }
 
-module.exports = Mouse ;
+chao cac ban
+
+=======
+}
+>>>>>>> parent of f3c287b (add file mouse)
