@@ -1,13 +1,13 @@
 var Dog = require('Dog') ;
 var cat = require('cat');
+var Mouse = require('mouse');
 
-var Dog2 = require('nobita');
-dog.sayHi();
-var tom = new Cat('cat');
-dog.eat(tom);
-console.log(dog);
-var tom2 = new cat('chuot');
-dog.eat(tom2);
-console.log(dog);
-
-console.log("code cua nguoi a ");
+var cat = new Cat();
+var mouse = new mouse();
+var dog = new Dog();
+cat.eat(mouse);
+try{
+	cat.eat(mouse);
+}catch(error)
+	console.log('cat eat only mouse !!!');
+}
