@@ -9,4 +9,7 @@ Cat.prototype.eat = function(animal){
 	} else{
 		throw new Error('cat can only eat mouse !');
 };
+Cat.prototype.sleep = function(){
+	console.log('sleeping ....');
+}
 module.export = Cat;
