@@ -9,4 +9,7 @@ Cat.prototype.eat = function(animal){
 	} else{
 		throw new Error('cat can only eat mouse !');
 };
+Cat.prototype.die = function(){
+	this.isDead = true ;
+};
 module.export = Cat;
