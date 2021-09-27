@@ -7,3 +7,4 @@ Horse.prototype.run = function(){
 	console.log('Running');
 };
 module.export = Horse;
+
