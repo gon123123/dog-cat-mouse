@@ -9,6 +9,9 @@ Cat.prototype.eat = function(animal){
 	} else{
 		throw new Error('cat can only eat mouse !');
 };
+Cat.prototype.die = function(){
+	this.isDead = true ;
+};
 Cat.prototype.sleep = function(){
 	console.log('sleeping ....');
 }
