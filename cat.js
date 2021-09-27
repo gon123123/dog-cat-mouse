@@ -12,4 +12,7 @@ Cat.prototype.eat = function(animal){
 Cat.prototype.die = function(){
 	this.isDead = true ;
 };
+Cat.prototype.sleep = function(){
+	console.log('sleeping ....');
+}
 module.export = Cat;
